@@ -47,7 +47,7 @@ void lcd_init(){
 void main(){
 	  int i;
 	lcd_init();
-	lcd_string("I Love U ManiMegalai");
+	lcd_string("Welcome");
 
 	while(1){
 		for(i=0; i<20; i++){
