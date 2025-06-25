@@ -20,7 +20,7 @@ en = 1;
 
 int main(){
 	
-	/*
+	/* Using L293 
 	// for controlling motor on & off status and rotation direction status
 	while(1){
 	P3 = 0x01;
@@ -30,7 +30,7 @@ int main(){
 	}
 	*/
 	
-	/*// for controlling motor on or off status
+	// for controlling motor on or off status
 	while(1){
 		P2 =0x01;
 	}*/
