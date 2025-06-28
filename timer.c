@@ -92,6 +92,7 @@ int main(){
 
 */
 
+/*
 // Mode 3 - split timer mode where TL0 is controlled by TR0/TF0 which act as a 8 bit timer independently
 // And TH0 is controlled by TR1/TF1 which act as a 8 bit timer independently
 // timer 1 is disabled in this particular mode
@@ -137,3 +138,4 @@ int main(){
 	}
 
 }
+*/
