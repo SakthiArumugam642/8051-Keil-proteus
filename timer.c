@@ -132,9 +132,9 @@ int main(){
 	TMOD = 0x03;
 	while(1){
 		p = 1;
-		delay_50msTL0(180); // 50000/(1.085*256) = 180
+		delay_50msTL0(180); // 50000/(1.085*256) = 180; using TH0 to generate T_off= 50 ms
 		p = 0;
-		delay_50msTH0(180); // 50000/(1.085*256) = 180
+		delay_50msTH0(180); // 50000/(1.085*256) = 180; using TH0 to generate T_off= 50 ms
 	}
 
 }
